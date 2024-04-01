@@ -12,9 +12,10 @@ Brittany has lived in a few places in California so far:\
 
 Brittany has some cool interests, such as:
 
--   mushrooms\
--   lichens\
--   crafting and making art\
--   taking care of her adorable pets\
+-   mushrooms
+-   lichens
+-   crafting and making art
+-   taking care of her adorable pets
+-   pretzels
 
 Here's a link to the [Bogar Lab](https://laurabogar.com/) where Brittany works!
