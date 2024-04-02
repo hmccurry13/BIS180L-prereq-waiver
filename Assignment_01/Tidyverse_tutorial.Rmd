@@ -1,0 +1,24 @@
+
+```{r}
+library("tidyverse")
+```
+
+
+```{r}
+height_data_clean <- read.csv("~/BIS180L-prereq-waiver/Assignment_01/height_data_clean.csv")
+head(height_data_clean)
+```
+```{r}
+Jan27_data <- filter(height_data_clean, survey_date == "2023-01-27")
+Jan27_data
+```
+```{r}
+select(height_data_clean, height_cm)
+```
+```{r}
+height_data_clean%>%
+  group_by(pop)%>%
+  summarize(height.mean=mean(height_cm))
+```
+
+
