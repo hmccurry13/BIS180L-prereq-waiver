@@ -1,0 +1,18 @@
+```{r}
+library(tidyverse)
+height_data_clean <- read.csv("height_data_clean.csv")
+height_data_clean$survey_date <- as.Date(height_data_clean$survey_date)
+```
+
+```{r}
+ggplot(data = height_data_clean, mapping = aes(x = survey_date, y = height_cm, col = pop)) + geom_smooth(method = "lm")
+```
+
+```{r}
+Jan27_data <- filter(height_data_clean, survey_date == "2023-01-27")
+```
+
+```{r}
+ggplot(data = Jan27_data, mapping = aes(x = pop, y = height_cm, col = pop)) + geom_boxplot()
+```
+
